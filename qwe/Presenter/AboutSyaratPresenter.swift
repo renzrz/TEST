@@ -24,7 +24,7 @@ class AboutSyaratPresenter {
         self.aboutSyaratViewDelegate = aboutSyaratViewDelegate
     }
     
-    func trafficLightColorSelected(name:(String), email:(String), image:(UIImage)){
+    func aboutSyaratSelected(name:(String), email:(String), image:(UIImage)){
 
         aboutSyaratService.get(name: name, email: email, image: image) { [weak self] aboutSyarat in
 
